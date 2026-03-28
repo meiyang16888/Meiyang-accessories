@@ -98,7 +98,8 @@
             <!-- 左側區塊：品牌形象 -->
             <div class="flex flex-col items-center md:w-[38%] md:border-r md:border-wood-line md:pr-10 md:h-auto shrink-0 relative">
                 <div class="md:sticky md:top-10 flex flex-col items-center w-full">
-                    <header class="flex flex-col items-center mb-6 md:mb-0 relative">
+                    <!-- 縮小了 mb-6 變成 mb-2，縮減手機版下方留白 -->
+                    <header class="flex flex-col items-center mb-2 md:mb-0 relative">
                         <div class="relative mb-5">
                             <svg class="absolute -top-4 -left-4 w-40 h-40 text-wood-moss animate-sway opacity-50 pointer-events-none" viewBox="0 0 100 100">
                                 <circle cx="50" cy="50" r="46" fill="none" stroke="currentColor" stroke-width="0.5" stroke-dasharray="3,6" />
@@ -118,8 +119,8 @@
                         </h1>
                         <p class="text-[11px] md:text-xs text-wood-medium font-medium mt-2 tracking-[0.2em] uppercase font-sans text-center">Botanical & Accessory</p>
                         
-                        <!-- 僅保留 IG 圖示並置中 -->
-                        <div class="flex items-center justify-center mt-5 opacity-80">
+                        <!-- 縮小了 mt-5 變成 mt-3，使 IG 圖示更貼近上方文字 -->
+                        <div class="flex items-center justify-center mt-3 opacity-80">
                             <a href="https://www.instagram.com/meiyang.16888" target="_blank" class="p-2 border border-wood-medium/30 rounded-full hover:bg-wood-accent/20 hover:text-wood-accent hover:border-wood-accent/50 transition-colors text-wood-medium" title="Instagram">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5">
                                     <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
@@ -133,7 +134,8 @@
             </div>
 
             <!-- 右側區塊：資訊內容 -->
-            <div class="flex flex-col md:w-[62%] w-full md:pl-2 pt-6 md:pt-0">
+            <!-- 縮小了 pt-6 變成 pt-4，進一步縮減手機版上下區塊的距離 -->
+            <div class="flex flex-col md:w-[62%] w-full md:pl-2 pt-4 md:pt-0">
                 
                 <section class="text-center md:text-left space-y-6">
                     
@@ -147,7 +149,6 @@
                             以「花」為手作的出發點，把花最美的姿態永久保存。利用工藝樹脂、不凋花、乾燥花，搭配異素材，呈現獨特清新感。期待「Mei Yang」能帶給妳喜悅，成為精緻生活中的一部份。
                         </p>
 
-                        <!-- 調整此區塊：增加上下 padding，使用 flex 排版對齊，並將底色改淺 (bg-wood-hover/30) -->
                         <div class="relative pl-3.5 pr-3 py-2.5 border-l-2 border-wood-moss/40 ml-1 md:ml-0 bg-wood-hover/30 rounded-r-sm">
                             <div class="flex items-start gap-1.5">
                                 <span class="text-wood-moss shrink-0 mt-[3px]"><i data-lucide="pen-tool" class="w-3.5 h-3.5"></i></span>
